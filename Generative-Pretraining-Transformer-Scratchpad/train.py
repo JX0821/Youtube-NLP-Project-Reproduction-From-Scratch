@@ -1,3 +1,25 @@
+"""
+Project: Generative-Pretraining-Transformer-Scratchpad
+Author: Jixuan Yao
+Date: March 2026
+
+LEARNING SOURCE:
+This project is a dedicated study of the "Neural Networks: Zero to Hero" series 
+by Andrej Karpathy. 
+Course Reference: https://github.com/karpathy/ng-video-lecture
+
+PURPOSE:
+- Hand-coded reproduction: Every line is manually implemented while following 
+  the lecture to internalize the transformer architecture.
+- Detailed Lab Notes
+
+TECHNICAL FOCUS:
+- Building a character-level language model from the ground up.
+- Step-by-step evolution: From simple Bigram statistics to Multi-head Self-Attention.
+- Data: Tiny Shakespeare dataset (Vocab size: 65).
+"""
+
+
 import os
 import urllib.request
 import torch
